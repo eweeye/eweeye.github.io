@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documents on EweEye</title>
+    <link>https://eweeye.github.io/en/docs/</link>
+    <description>Recent content in Documents on EweEye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <copyright>Scott D Hodgson</copyright>
+    <lastBuildDate>Wed, 26 Aug 2020 07:04:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://eweeye.github.io/en/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get Started</title>
+      <link>https://eweeye.github.io/en/docs/getstarted/</link>
+      <pubDate>Wed, 26 Aug 2020 07:05:00 -0400</pubDate>
+      
+      <guid>https://eweeye.github.io/en/docs/getstarted/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

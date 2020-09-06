@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Markup Conversion</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+<link rel="stylesheet" href="/css/eweeye/treeview.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://eweeye.github.io">EweEye</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Documents
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    
+                    
+                    
+                        
+                        <a class="dropdown-item" href="/en/docs/getstarted/">Get Started</a>
+                        
+                    
+                </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Samples
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    
+                    
+                    <a class="dropdown-item" href="/en/samples/treeview/">Treeview</a>
+                    
+                    
+                        
+                    
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+        <li class="breadcrumb-item"><a href="/en/samples/">Samples</a></li>
+
+
+
+        <li class="breadcrumb-item"><a href="/en/samples/treeview/">Treeview</a></li>
+
+
+
+        <li class="breadcrumb-item"><a href="/en/samples/treeview/markupconversion/">Markup Conversion</a></li>
+
+
+    </ol>
+</nav>
+<div class="container-fluid">
+    <ol>
+
+    </ol>
+</div>
+    <div class="row">
+      <div class="col-12">
+        <h1>Markup Conversion</h1>
+      </div>
+    </div>
+    <p>Convert an existing list, or nested lists, into a dynamic treeview.</p>
+<p>The treeview will convert static markup of a <code>ul</code> element into a treeview control with the addition of the <code>eweeye-treeview</code> class being added to the root element.</p>
+
+<pre><code class="html">&lt;ul class=&#34;eweeye-treeview&#34;&gt;
+  ...
+&lt;/ul&gt;</code></pre>
+
+<!-- raw HTML omitted -->
+
+<div class="row">
+
+<!-- raw HTML omitted -->
+
+<div class="col-xs-12 col-md-6">
+
+<h2 id="without-treeview">Without Treeview</h2>
+<p>No Treeview Class Identified</p>
+
+<div class="card">
+    <div class="card-body">
+<ul>
+    <li>Fruits
+        <ul>
+            <li>Citrus
+                <ul>
+                    <li>Oranges</li>
+                    <li>Grapefruits</li>
+                    <li>Mandarins</li>
+                    <li>Limes</li>
+                </ul>
+            </li>
+            <li>Stone fruit
+                <ul>
+                    <li>Nectarines</li>
+                    <li>Apricots</li>
+                    <li>Peaches</li>
+                    <li>Plums</li>
+                </ul>
+            </li>
+            <li>Tropical and exotic
+                <ul>
+                    <li>Bananas</li>
+                    <li>Mangoes</li>
+                </ul>
+            </li>
+            <li>Berries
+                <ul>
+                    <li>Strawberries</li>
+                    <li>Raspberries</li>
+                    <li>Blueberries</li>
+                    <li>Kiwifruit</li>
+                    <li>Passionfruit</li>
+                </ul>
+            </li>
+            <li>Melons
+                <ul>
+                    <li>Watermelons</li>
+                    <li>Rockmelons</li>
+                    <li>Honeydew melons</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Vegetables
+        <ul>
+            <li>Leafy green</li>
+            <ul>
+                <li>Lettuce</li>
+                <li>Spinach</li>
+                <li>Silverbeet</li>
+            </ul>
+            <li>Cruciferous</li>
+            <ul>
+                <li>Cabbage</li>
+                <li>Cauliflower</li>
+                <li>Brussels sprouts</li>
+                <li>Broccoli</li>
+            </ul>
+            <li>Marrow</li>
+            <ul>
+                <li>Pumpkin</li>
+                <li>Cucumber</li>
+                <li>Zucchini</li>
+            </ul>
+            <li>Root</li>
+            <ul>
+                <li>Potato</li>
+                <li>Sweet potato</li>
+                <li>Yam</li>
+            </ul>
+            <li>Edible plant stem</li>
+            <ul>
+                <li>Celery</li>
+                <li>Asparagus</li>
+            </ul>
+            <li>Allium</li>
+            <ul>
+                <li>Onion</li>
+                <li>Garlic</li>
+                <li>Shallot</li>
+            </ul>
+        </ul>
+    </li>
+</ul>
+    </div>
+</div>
+
+
+</div>
+
+<!-- raw HTML omitted -->
+
+<div class="col-xs-12 col-md-6">
+
+<h2 id="with-treeview">With Treeview</h2>
+<p>Treeview Class Identified
+
+<div class="card">
+    <div class="card-body">
+<ul class="eweeye-treeview">
+    <li>Fruits
+        <ul>
+            <li>Citrus
+                <ul>
+                    <li>Oranges</li>
+                    <li>Grapefruits</li>
+                    <li>Mandarins</li>
+                    <li>Limes</li>
+                </ul>
+            </li>
+            <li>Stone fruit
+                <ul>
+                    <li>Nectarines</li>
+                    <li>Apricots</li>
+                    <li>Peaches</li>
+                    <li>Plums</li>
+                </ul>
+            </li>
+            <li>Tropical and exotic
+                <ul>
+                    <li>Bananas</li>
+                    <li>Mangoes</li>
+                </ul>
+            </li>
+            <li>Berries
+                <ul>
+                    <li>Strawberries</li>
+                    <li>Raspberries</li>
+                    <li>Blueberries</li>
+                    <li>Kiwifruit</li>
+                    <li>Passionfruit</li>
+                </ul>
+            </li>
+            <li>Melons
+                <ul>
+                    <li>Watermelons</li>
+                    <li>Rockmelons</li>
+                    <li>Honeydew melons</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Vegetables
+        <ul>
+            <li>Leafy green</li>
+            <ul>
+                <li>Lettuce</li>
+                <li>Spinach</li>
+                <li>Silverbeet</li>
+            </ul>
+            <li>Cruciferous</li>
+            <ul>
+                <li>Cabbage</li>
+                <li>Cauliflower</li>
+                <li>Brussels sprouts</li>
+                <li>Broccoli</li>
+            </ul>
+            <li>Marrow</li>
+            <ul>
+                <li>Pumpkin</li>
+                <li>Cucumber</li>
+                <li>Zucchini</li>
+            </ul>
+            <li>Root</li>
+            <ul>
+                <li>Potato</li>
+                <li>Sweet potato</li>
+                <li>Yam</li>
+            </ul>
+            <li>Edible plant stem</li>
+            <ul>
+                <li>Celery</li>
+                <li>Asparagus</li>
+            </ul>
+            <li>Allium</li>
+            <ul>
+                <li>Onion</li>
+                <li>Garlic</li>
+                <li>Shallot</li>
+            </ul>
+        </ul>
+    </li>
+</ul>
+    </div>
+</div>
+</p>
+
+</div>
+
+
+</div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/js/eweeye/treeview.js"></script>
+</body>
+
+</html>
