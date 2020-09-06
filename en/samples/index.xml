@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samples on EweEye</title>
+    <link>https://eweeye.github.io/en/samples/</link>
+    <description>Recent content in Samples on EweEye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <copyright>Scott D Hodgson</copyright>
+    <lastBuildDate>Tue, 25 Aug 2020 07:33:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://eweeye.github.io/en/samples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
